@@ -1,0 +1,154 @@
+nav{
+    background-color: rgb(243, 238, 238);
+    margin: 0px 0px 25px 0px;
+    padding: 20px 10px 20px 10px;
+    border-radius: 8px;
+
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+   
+    align-items: baseline;
+   
+}
+
+footer{
+    background-color: rgb(243, 238, 238);
+    margin: 100px 0px 0px 0px;
+    padding: 30px 10px 30px 10px;
+    border-radius: 8px;
+}
+
+.left-items{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-left: 10px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: medium;
+    font-weight: 550;
+    letter-spacing: 0.8px;
+    
+ 
+   
+}
+
+a{  
+    padding-right:10px ;
+    text-decoration: none;
+    color: rgb(122, 106, 106);
+    
+    
+}
+
+.brand-name{
+    
+    color: #a1626d;
+   font-size: 2rem;
+    font-weight: bold;
+    width: 203px;
+   
+}
+
+.login-button{
+    width: 203px;
+    text-align: end;
+}
+
+.best-sellers{
+    margin: 25px 15px 25px 15px;
+}
+
+.shop{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.products-1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.products-2{
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.products-3{
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.credits{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(122, 106, 106);
+    font-size: medium;
+    font-weight: 550;
+    padding-left: 10px;
+    letter-spacing: 1.3px;
+
+
+    
+}
+
+.about-content ,  .contact-content{
+    /* font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(44, 39, 39);
+    font-size: medium; */
+    letter-spacing: 0.8px;
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+
+.login-form{
+    background-color: rgb(243, 238, 238);
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    font-size: medium;
+    
+    
+    letter-spacing: 0.8px;
+    width: 100%;
+    height: 650px;
+    
+   
+}
+.login-img{
+    justify-self: flex-end;
+}
+
+
+.login-page{
+    width: 100%;
+    display: flex;
+    
+}
+
+.log{
+    margin: 0px 0px 0px 64px;
+}
+
+.log-img{
+    margin: 0px;
+}
+
+#cart-items{
+   padding-left: 550px;
+    list-style-position: inside;
+    letter-spacing: 0.8px;
+}
